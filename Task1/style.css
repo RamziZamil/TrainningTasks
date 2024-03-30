@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --green:#b5e2bb;
+    --fontColor:black;
+    --top: 35px;
+    --red:red;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    background-color: var(--green);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+nav ul li {
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    color: var(--fontColor);
+    font-weight: bold;
+    margin-right: 10px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+}
+.hero img{
+    margin-top: var(--top);
+    width: 80%;
+    border-radius: 20px;
+    height: 60vh;
+}
+.second{
+    margin-top: var(--top);
+    color: var(--red);
+    text-align: center;
+    margin-bottom: 70px;
+    
+}
+.cards{
+    margin-top: var(--top);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card{
+    background-color: #ddd;
+    border-radius: 20px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card img{
+    height: 180px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.card a{ 
+    padding: 5px ;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: var(--green);
+    color: var(--fontColor);
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: large;
+    line-height: 27px;
+}
+
+.frame{
+    margin-top: var(--top);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+}
